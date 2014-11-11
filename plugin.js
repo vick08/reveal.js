@@ -4,7 +4,7 @@ window.addEventListener('load', function(){
 	document.addEventListener( 'keydown', announceContent, false );
 
 		var statusDiv =  document.getElementById( 'aria-status-div' );
-		console.log(statusDiv)
+		// console.log(statusDiv)
 
 		var hintText =	{
 							'fragments':'This slide has fragments, Hit the next arrow to step through. ' , 
@@ -42,7 +42,6 @@ window.addEventListener('load', function(){
 				statusDiv.innerHTML = hintText.fragments + statusDiv.innerHTML;
 			}
 			if(nested.length>0){
-				console.log('nested' , nested.length)
 				statusDiv.innerHTML  = hintText.nested + statusDiv.innerHTML;
 			}
 			if(notes.length>0){
