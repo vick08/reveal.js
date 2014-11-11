@@ -1,6 +1,6 @@
 (function (appConfig) {
 
-window.addEventListener('DOMContentLoaded', function(){
+window.addEventListener('load', function(){
 	document.addEventListener( 'keydown', announceContent, false );
 
 		var statusDiv =  document.getElementById( 'aria-status-div' );
