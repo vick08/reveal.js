@@ -7,9 +7,9 @@ window.addEventListener('load', function(){
 		// console.log(statusDiv)
 
 		var hintText =	{
-							'fragments':'This slide has fragments, Hit the next arrow to step through. ' , 
-							'notes' : 'This slide has notes, press n to view notes. ' , 
-							'nested':'This slide has nested slides, press space key to navigate this slide. '
+							'fragments':'slide has fragments, Hit the next arrow to step through. ' , 
+							'notes' : 'slide has notes, press n to view notes. ' , 
+							'nested':'slide has nested slides, press space key to navigate this slide. '
 						};
 
 		getScreenContent();
